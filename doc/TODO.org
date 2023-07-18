@@ -1,0 +1,59 @@
+* TODO learn tiny code: directly how to use nn
+
+** TODO learn bench_tensorflow.py
+
+** TODO run bench_tensorflow.py
+
+** TODO write train with tensorflow.js
+
+input + 5 hidden layer: 64
+output layer: 3
+
+adam
+glorot_uniform_initializer
+
+# batch size: 1024
+batch size: 2?
+
+one blob:
+input: 62 + 1 + 1
+
+
+one epoch
+
+
+test time
+
+** TODO write inference with tensorflow.js
+
+
+test time
+
+** TODO implement by Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
+
+update encode to hash
+
+
+
+
+compare with one blob encode(result should equal!)
+
+* TODO learn NRC path tracer code: how to use nrc with path tracer
+
+
+* TODO add path tracer by webgpu
+
+LBVH+Lambertian,Specular Material+One Area Light
+
+
+
+* TODO implement mlp by tensorflow.js(webgpu)
+
+
+
+# * TODO implement mlp by own?
+
+
+
+
+# * TODO implement by Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
