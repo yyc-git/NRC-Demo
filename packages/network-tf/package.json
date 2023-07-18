@@ -1,0 +1,20 @@
+{
+  "name": "network-tf",
+  "version": "0.0.1",
+  "dependencies": {
+    "@tensorflow/tfjs": "4.8.0",
+    "@tensorflow/tfjs-backend-webgpu": "4.8.0"
+  },
+  "scripts": {
+    "webpack:dev-server": "webpack-dev-server --config webpack.config.watch.js"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
