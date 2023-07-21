@@ -42,6 +42,26 @@ test time
 
 ** TODO implement by Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
 
+quesition: how to train hash table???
+
+
+refer to:
+[instant-ngp 知乎](https://www.google.com/search?q=instant-ngp+%E7%9F%A5%E4%B9%8E&lr=lang_zh-CN%7Clang_zh-TW&newwindow=1&biw=1152&bih=611&tbs=lr%3Alang_1zh-CN%7Clang_1zh-TW&sxsrf=AB5stBhS1NbAclynFsICz-fBAcRiSGXMkw%3A1689904491621&ei=a-W5ZMXAJeeR2roPqrSZqAk&ved=0ahUKEwiForXn2J6AAxXniFYBHSpaBpUQ4dUDCA8&uact=5&oq=instant-ngp+%E7%9F%A5%E4%B9%8E&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmluc3RhbnQtbmdwIOefpeS5jjIHEAAYDBiABDIEEAAYHkjXC1D_AlinCnABeAGQAQCYAZsCoAHZCaoBAzItNbgBA8gBAPgBAcICChAAGEcY1gQYsAPCAgUQABiABOIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp)
+[Taichi NeRF（上）：不写 CUDA 也能开发、部署 Instant NGP](https://zhuanlan.zhihu.com/p/612102573)
+[Taichi NeRF：无需写 CUDA 代码，用 Taichi 实现 Instant NGP](https://www.bilibili.com/video/BV1oV4y1S7RE/?spm_id_from=333.337.search-card.all.click&vd_source=22ce7281cd801f982e6a8c2b500dda43)
+[[instant-ngp论文阅读] Instant Neural Graphics Primitives w](https://www.bilibili.com/video/BV1dY411F76k/?vd_source=9fcdb7c5d92e95429d4dd9af0380937b)
+
+[HashNeRF-pytorch](https://github.com/yashbhalgat/HashNeRF-pytorch)
+[instant-ngp](https://github.com/NVlabs/instant-ngp)
+[torch-ngp](https://github.com/ashawkey/torch-ngp)
+[ngp_pl](https://github.com/kwea123/ngp_pl)
+
+
+
+
+
+
+
 update encode to hash
 
 
@@ -54,22 +74,22 @@ compare with one blob encode(result should equal!)
 # ** TODO tf read from webgpu buffer
 
 
-* TODO learn NRC path tracer code: how to use nrc with path tracer
+# * TODO learn NRC path tracer code: how to use nrc with path tracer
 
 
-* TODO add path tracer by webgpu
+# * TODO add path tracer by webgpu
 
-LBVH+Lambertian,Specular Material+One Area Light
-
-
-
-* TODO implement mlp by tensorflow.js(webgpu)
+# LBVH+Lambertian,Specular Material+One Area Light
 
 
 
-# * TODO implement mlp by own?
+# * TODO implement mlp by tensorflow.js(webgpu)
+
+
+
+# # * TODO implement mlp by own?
 
 
 
 
-# * TODO implement by Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
+# # * TODO implement by Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
